@@ -11,6 +11,21 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+    /*
+    * overscroll-behavior-y: contain;
+    * sirve para que al bajar la pagina no se recargue
+    * este efecto es para android
+    */
+    overscroll-behavior-y: contain;
+    /*
+    * -webkit-user-select: none;
+    * -webkit-tap-highlight-color: transparent;
+    * -webkit-touch-callout: none;
+    * Estos efectos son para ios
+    */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 /* Personalizados */
