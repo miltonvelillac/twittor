@@ -9,7 +9,7 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 // aqui va lo que hicimos nosotros, por ejemplo la libreria de jquery no iria aqui, porque esa
 // no la hicimos nosotros, mas bien iria en el app shell inmutable
 const APP_SHELL = [
-    '/',
+    // '/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
